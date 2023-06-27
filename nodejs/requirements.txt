@@ -1,0 +1,1 @@
+trebuie instalat nodejs si alte importuri daca vrei sa mearga

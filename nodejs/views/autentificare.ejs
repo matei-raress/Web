@@ -1,0 +1,16 @@
+
+<div class="autentificare">
+<form method="post" action="/verificare-autentificare" class="autentificare">
+    <label for="username">Nume utilizator</label><br>
+    <input type="text" name="username" ><br>
+    <label for="password">Parola </label><br>
+    <input type="password" name="password" ><br><br>
+    <button type="submit" name="submit">Autentificare</button>
+    <p>
+        <% if (error !='' && error != 'undefined' && error!=null) {%>
+            <label style="color: red;"  ><%= error %></label>
+        <% } %>
+        </p> 
+</form>
+
+</div>

@@ -1,0 +1,56 @@
+<div class="autentificareStart">
+<% if(user){ %>
+  
+    <form action="/logout" method="get">
+      <label class="autentifString">Autentificat ca: <%= user %></label>
+      <button type="submit">Delogheaza-te</button><br>
+      
+
+    </form><br>
+    
+      <form action="/vizualizare-cos" method="get">
+        <label class="autentifString">Bine ai venit <%= user %></label>
+        <button  type="submit" id="vezi-cos" >Vezi cosul</button>
+      </form>
+
+   
+ 
+  <% } else{ %>
+    
+      <form action="/autentificare" method="get">
+        <button type="submit">Autentifica-te</button>
+      </form>
+    
+    <% } %>
+  </div><br><br><br><br><br>
+<h1>Cel mai divers magazin de jucarii de pe planeta</h1><br><br>
+    <div class="databaseBut">
+      <form action="/creare-bd" method="get" class="onRight">
+        <button type="submit">Creare BD</button>
+      </form>
+      <form action="/inserare-bd" method="get" class="onRight">
+        <button type="submit">Incarcare BD</button>
+      </form>
+    </div>
+
+   <div class="div-container-produse">
+        <% produse.forEach(prod => { %>
+          <div>
+                <p><%= prod.NUME_PRODUS %></p>
+                <p><%= prod.PRET%> Ron</p>
+                <% if(user){ %> 
+                <form action="/adaugare-cos" method="post" class="form">
+                   <input type="hidden" name="id" value="<%=prod.ID%>">
+                   <button type="submit" class="addBtn"><!--Adauga in cos--></button>
+                </form> <% } %> 
+              </div>
+        <% }); %>
+   </div>
+   
+
+
+
+
+
+
+

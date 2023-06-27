@@ -1,0 +1,23 @@
+[
+    {
+        "intrebare": "O versiune din cauciuc a cărui animal a devenit o jucărie emblematică in timpul băii ?",
+        "variante": ["Rață", "Iepure", "Pisică", "Câine"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Completați numele acestor jucării: Țestoasele _____",
+        "variante": ["Ninja", "Minune", "Superputernice", "Sumo"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Cum se numește iubitul original al lui Barbie?",
+        "variante": ["Alex", "Kevin", "Joe", "Ken"],
+        "corect": 3
+    },
+    {
+        "intrebare": "Cați oameni pot juca simultan Jenga?",
+        "variante": ["8", "4", "Nu are limită", "2"],
+        "corect": 2
+    }
+         
+]

@@ -1,0 +1,45 @@
+[
+    {
+     "utilizator": "test1",
+     "parola": "test2",
+     "nume": "test1",
+     "prenume": "test11",
+     "status":"user"
+
+     },
+    {
+     "utilizator": "a",
+     "parola": "a",
+     "nume": "a",
+     "prenume": "aa",
+     "status":"admin"
+    },
+    {
+        "utilizator": "b",
+        "parola": "b",
+        "nume": "b",
+        "prenume": "bb",
+        "status":"user"
+       },
+    {
+     "utilizator": "cZX",
+     "parola": "zxcv",
+     "nume": "",
+     "prenume": "",
+     "status":"user"
+    },
+    {
+     "utilizator": "cZX",
+     "parola": "zxcv",
+     "nume": "",
+     "prenume": "",
+     "status":"user"
+    },
+    {
+     "utilizator": "ab",
+     "parola": "ab",
+     "nume": "",
+     "prenume": "",
+     "status":"user"
+    }
+   ]

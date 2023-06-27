@@ -1,0 +1,48 @@
+<br/>
+<div class="delogare">
+
+  <form action="/logout" method="get">
+    <label class="autentifString">Autentificat ca Admin</label>
+    <button type="submit">Delogheaza-te</button>
+  </form>
+</div><br><br><br>
+<div class="adminActionTotal">
+<div class="adminActions">
+    <h3>Adăugare produs</h3>
+    <form action="/adaugare-produs" method="post" >
+        <label>Nume jucarie</label><br> <input type="text" name="produs">
+        <br>
+        <label>Preț</label><br> <input type="text" name="pret">
+        <br><br>
+        <button class="button" type="submit" style="margin-bottom: 10px;"> Adaugă</button>
+    </form>
+
+  </div>
+<div class="adminActions">
+  <h3>Eliminare produs</h3>
+  <form action="/eliminare-produs" method="post" >
+      <label>Nume jucarie</label><br> <input type="text" name="produs"><br><br>
+      <button class="button" type="submit"> Sterge</button>
+  </form>
+
+</div>
+</div>
+<br><br>
+<div class="table">
+<table>
+    <thead>
+        <tr>
+            <th>Nume produs</th>
+            <th>Pret</th>
+          </tr>
+    </thead>
+    <tbody>
+      <% produse.forEach(prod => { %>
+          <tr>
+              <td><%= prod.NUME_PRODUS %></td>
+              <td><%= prod.PRET%></td>
+              </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</div>

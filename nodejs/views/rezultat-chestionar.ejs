@@ -1,0 +1,12 @@
+
+<div class="h1-rez">
+<h1 id="rezultat-chestionar">
+    <% if (nrRaspunsuri == 0) { %>
+      <%= "Nu ai raspuns corect la nicio intrebare" %>
+    <% } else if (nrRaspunsuri == 1) { %>
+      <%= "Ai raspuns corect la o intrebare" %>
+    <% } else { %>
+        <%= "Ai raspuns corect la "+nrRaspunsuri+" intrebari" %>
+      <% } %>
+    </h1>
+    </div>

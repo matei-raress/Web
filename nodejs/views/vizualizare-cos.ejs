@@ -1,0 +1,23 @@
+<h1>Vizualizare cos</h1>
+<div class="vizualizare-cos">
+    <% if(user){ %> 
+    
+    <table >
+        <tbody>
+            <% var total=0 %>
+            <% elemente.forEach(elem => { %>
+                <% console.log(elem) %>
+                <tr>
+                    <td><%= elem.NUME_PRODUS %></td>
+                    <td><%= elem.PRET%></td>
+                    <% total+= elem.PRET%>
+                </tr>
+            <% }); %>
+            <tr><td>Total</td>
+                <td> <%= total %></td>
+            </tr>
+        </tbody>
+    </table>
+    <% } %> 
+    </div>
+    

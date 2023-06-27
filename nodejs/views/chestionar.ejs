@@ -1,0 +1,22 @@
+
+<div class="vizualizare-chestionar">
+<form action="/rezultat-chestionar" method="post" class="vizualizare-chestionar">
+    <% 
+for (let indexIn = 0; indexIn < intrebari.length; indexIn++) { %>
+    <label> <%=intrebari[indexIn].intrebare %> </label> <br>
+    <%  let rasp = 0; %>
+           <% for(let v of intrebari[indexIn].variante){ %>
+       &emsp;&emsp;&emsp;
+        <input type="radio" name="q<%= indexIn %>" value="<%= rasp %>"><%=v %>
+            <%  rasp++ ;%> 
+           <% if(rasp==2){  %> 
+            <br>
+            <% }  %>
+            <%  } %>
+            
+            <br><br>
+        <% } %>
+        <button  type="submit" style="margin-bottom: 10px;"> Trimite</button>
+    <br>
+</form>
+</div>
