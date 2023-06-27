@@ -1,0 +1,73 @@
+<br><br><br>
+<h1 id="inreg">Creează-ți un cont</h1>
+<form class="inregistrare" action="/api/utilizatori" method="post">
+    
+    <fieldset class="inreg">
+        <legend id="inreg">Informații generale</legend>
+        
+        <label class="left" for="utilizator">Nume utilizator</label>
+        
+        <input class="right" type="text" id="utilizator" name="utilizator" required><br><br>
+
+        <label class="left" for="parola">Parolă</label>
+        
+        <input class="right" type="password" id="parola" name="parola" required><br><br>
+
+        <label class="left" for="nume">Nume</label>
+        
+        <input class="right" type="text" id="nume" name="nume"><br><br>
+
+        <label class="left" for="prenume">Prenume</label>
+        
+        <input class="right" type="text" id="prenume" name="prenume"><br><br>
+
+        <label class="left" for="email">Email</label>
+        
+        <input class="right" type="email" id="email" name="email"><br><br>
+
+        <label class="left" for="telefon">Telefon</label>
+        
+        <input class="right" type="tel" id="telefon" name="telefon"><br><br>
+    </fieldset>
+
+    <fieldset  id="fieldset2" class="inreg">
+        <legend id="inreg">Informații personale</legend>
+
+        <label>Sexul:</label>
+        <select>
+            <option>Femeie</option>
+            <option>Bărbat</option>
+        </select><br><br>
+
+        <label>Gen de muzica preferat:</label>
+        <input list="gen" id="genu" name="genu">
+        <datalist id="gen">
+            <option value="Rock">
+            <option value="Indie">
+            <option value="Punk">
+            <option value="Pop">
+            <option value="Manele">
+        </datalist><br><br>
+        
+        <label>Culoarea preferată:</label>
+        <input type="color" value=""><br><br>
+        
+        <label>Data nașterii:</label>
+        <input type="date"><br><br>
+
+        <label>Ora nașterii:</label>
+        <input type="time"><br><br>
+
+        <label>Vârstă:</label>
+        <input type="range"><br><br>
+
+        <label>Adresa paginii personale:</label>
+        <input type="url"><br><br>
+        
+        <label for="desc">Descriere:</label><br>
+        <textarea cols="50" rows="5"></textarea><br>
+       
+    </fieldset>
+
+    <button id="inregistrare" type="submit" value="Inregistreaza">Înregistrează</button>
+</form>

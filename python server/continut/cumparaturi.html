@@ -1,0 +1,21 @@
+<br><br><br><br>
+<h2 class="magazin">Magazin</h2>
+  <h4>Alege ce dorești (sunt sanse mari să și avem) și pune-l in coșul de cumparaturi</h4>
+<form class="magazin">
+    <label for="numeShop">Nume:</label>
+    <input type="text" id="numeShop" value="paine">&emsp;
+    <label for="cantitateShop">Cantitate:</label>
+    <input type="number" id="cantitateShop" value="23">&emsp;
+
+    <label>Modul de stocare: </label>
+    <select id="storageType">
+      <option value="database">IndexedDB</option>
+      <option value="local">LocalStorage</option>
+  </select>
+  &emsp;&emsp;
+
+    <button type="button" onclick="insertData()">Adaugă</button>
+  </form>
+  <br><br>
+
+ <table id="tabel"></table>

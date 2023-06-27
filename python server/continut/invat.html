@@ -1,0 +1,85 @@
+
+
+    <header>
+        <aside >
+            <a href="#s1">
+                <h3>Secțiunea 1</h3>
+            </a>
+            <a href="#s2">
+                <h3>Secțiunea 2</h3>
+            </a>
+            <a href="#s3">
+                <h3>Secțiunea 3</h3>
+            </a>
+        </aside>
+    </header>
+
+        <br><br><br><br> 
+        <h1 id="header">Have fun!</h1>
+        <section class="invat"  id="s1">
+            <h2>Informații despre browserul si locația de unde accesezi acest website fantastic.</h2>
+
+            <p >Data: <label id="data"></label> </p>
+
+            <p>URL: <label id="url"> </label> </p>
+
+            <label>Locație: </label>
+            <label id="locatie">
+                <button onclick="locationMe()">Show</button>
+            </label>
+
+            <p>Versiune: <label id="versiune" ></label></p>
+
+            <p>Sistem de operare: <label id="os"></label></p>
+        </section><br>
+
+        <section class="invat" id="s2">
+            <h2>Think inside the box :&#41;</h2>
+            <div id="part1">
+                <label for="contur">Culoarea de contur</label>
+                <input type="color" id="contur" name="contur" value="#011a1f"><br><br>
+                <label for="umplere">Culoarea de umplere</label>
+                <input type="color" id="umplere" name="umplere" value="#00ff00"><br><br>
+            </div>
+
+            <div id="part2">
+                <canvas onclick="painting(event);" id="canvass" height="200" width="400"
+                    ></canvas>
+            </div>
+           
+        </section><br>
+ 
+
+
+
+        <section class="invat" id="s3">
+            <h2>Nu ai ce face cât timp asculți muzică? Umple un tabel.  </h2>
+            <div id="part1">
+            <label for="pozitie">Pozitie : </label>
+            <input type="text" id="pozitie" name="pozitie" ><br><br>
+            <button onclick="addColoana()">Adaugă coloana</button><br><br>
+            <button onclick="addRand()">Adaugă rand</button><br><br>
+            <label for="culoare">Culoare celulă</label>
+            <input type="color" id="culoare" name="culoare" value="#00ff00" onclick="schimbaCuloare()"><br><br>
+            </div>
+            <div id="part2">
+            <table id="tabel">
+                <tr>
+                    <td>cell11</td>
+                    <td>cell12</td>
+                    <td>cell13</td>
+                </tr>
+                <tr>
+                    <td>cell21</td>
+                    <td>cell22</td>
+                    <td>cell23</td>
+                </tr>
+                <tr>
+                    <td>cell31</td>
+                    <td>cell32</td>
+                    <td>cell33</td>
+                </tr>
+            </table><br>
+            </div>
+        </section><br>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <adresa>
+            <strada>Noastra</strada>
+            <numar>32</numar>
+            <localitate>Jilnet</localitate>
+            <judet>Harghita</judet>
+            <tara>Bangladesh</tara>
+            <email>popescu.ion@gmail.com</email>
+        </adresa>
+        <varsta>23</varsta>
+        <liceu>Stefan cel Mare 2</liceu>
+    </persoana>
+    <persoana id="2">
+        <nume>Matei</nume>
+        <prenume>Rares</prenume>
+        <adresa>
+            <strada>kolea</strada>
+            <numar>23</numar>
+            <localitate>Bicaz</localitate>
+            <judet>Neamt</judet>
+            <tara>Romain</tara>
+            <email>matei.rares@gmail.com</email>
+        </adresa>
+        <varsta>23</varsta>
+        <liceu>Carol 1 teoretic</liceu>
+    </persoana>
+    <persoana id="3">
+        <nume>Ciprian</nume>
+        <prenume>Andrei</prenume>
+        <adresa>
+            <strada>Lacului</strada>
+            <numar>22</numar>
+            <localitate>Piatra</localitate>
+            <judet>Bucuresti</judet>
+            <tara>Anglia</tara>
+            <email>cipri.adrian@gmail.com</email>
+        </adresa>
+        <varsta>23</varsta>
+        <liceu>Dimitrie Cantemir cred</liceu>
+    </persoana>
+</persoane>

@@ -1,0 +1,16 @@
+<!ELEMENT persoane (persoana+)>
+<!ELEMENT persoana (nume,prenume,adresa,varsta,liceu)>
+<!ATTLIST persoana id CDATA #REQUIRED>
+
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT prenume (#PCDATA)>
+<!ELEMENT adresa (strada,numar,localitate,judet,tara,email)>
+<!ELEMENT liceu (#PCDATA)>
+
+<!ELEMENT strada (#PCDATA)>
+<!ELEMENT numar (#PCDATA)>
+<!ELEMENT localitate (#PCDATA)>
+<!ELEMENT judet (#PCDATA)>
+<!ELEMENT tara (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT varsta (#PCDATA)>

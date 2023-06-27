@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Acasa</title>
+    <link rel="stylesheet" type="text/css" href="css/stil.css">
+    <script src="js/script.js"></script>
+    <script src="js/addons.js"></script>
+
+</head> 
+
+<body onload="schimbaContinut('acasa')">
+   
+    <nav>
+        <h4>
+            <a onclick="schimbaContinut('acasa')">Acasă</a> &emsp;
+            <a  onclick="schimbaContinut('despre')">Despre</a>&emsp;
+            <a  onclick="schimbaContinut('inregistreaza')">Inregistrare</a>&emsp;
+            <a  onclick="schimbaContinut('video')">Video</a>&emsp;
+            <a  onclick="schimbaContinut('desen')">Desen</a>&emsp;
+            <a  onclick="schimbaContinut('invat')">Învăț</a>&emsp;
+            <a  onclick="schimbaContinut('persoane', 'js/persoane.js', 'incarcaPersoane')">Persoane</a>&emsp;
+            <a  onclick="schimbaContinut('verifica')">Verificare</a>&emsp;    
+            <a  onclick="schimbaContinut('cumparaturi','js/cumparaturi.js')">Cumpărături</a>&emsp;
+        </h4>
+
+    </nav>
+    <main id="continut"></main>
+    
+    <footer>
+        <p>© 2023 Indie</p>
+    </footer>
+    
+</body>
+
+</html>

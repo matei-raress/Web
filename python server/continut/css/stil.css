@@ -1,0 +1,378 @@
+
+@media screen and (min-width: 480px) {
+    title {
+        text-align: center;
+    } 
+}
+body {
+     background-image: url("../imagini/backImage.jpg") ;
+     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+   color: #b8dee7;
+}
+a:hover {
+  color: #00477a; 
+}
+
+
+table {
+  background-color: #8aeeff;
+  border-collapse: collapse;
+  text-align: left;
+  color:black;
+  border-radius: 1px;
+}
+
+
+td, th {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+
+form {
+  background-color: rgb(4, 81, 129);
+  border: 1px solid rgb(0, 29, 50);
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: left;
+   border-radius: 10px;
+   font-size: 20px; 
+}
+
+/*pseudo-element*/
+p::first-letter {
+  font-size: larger;
+
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Change this to the height of your footer */
+ float: right;
+  color: #000;
+}
+main {
+     padding-bottom: 100px; /* Add this to create space for the footer */
+}
+
+
+/*despre*/
+.frame {
+  text-align: center;
+}
+.cen{
+  text-align: center;
+}
+
+table.melodii{
+  width:270px;
+}
+form.despre input,form.despre select,form.despre textarea {
+  background-color: #8aeeff; 
+  border-radius: 5px;
+  font-size: 18px; 
+  border: none;
+}
+form.despre label{
+  font-size: 20px; 
+}
+div.definitie p,div.definitie ol, div.definitie h4{
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;;
+}
+
+section#exemple {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+section#exemple div img{
+  border-radius: 10px;;
+}
+iframe{
+  border-radius: 10px;;
+}
+
+
+/*despre*/
+
+/*nav*/
+nav {
+  background-color: #092534;
+  color: #fff; 
+  display: flex; 
+  justify-content: center; 
+  padding: 0px; 
+  font-family: Arial, sans-serif; 
+  position: fixed  ;
+  transition: top 0.5s ease-out;
+top: 0;
+left: 0;
+right: 0 ; 
+}  
+
+nav a {
+  color: #fff; 
+  text-decoration: none; 
+  font-size: 18px;
+  transition: color 0.1s ease-in-out;
+}  
+/*pseudo-clasa*/
+nav a:hover {
+  color: #4ea5b6; 
+}
+/*nav*/
+
+/*acasa*/
+section.acasa {
+  margin-left: 110px;
+  padding: 10px;
+}
+
+#acasa {
+  text-align: center;
+ 
+}
+h4#ac{
+  margin-bottom: 1px;
+}
+p#ac{
+  margin-top: 1px;
+
+}
+/*acasa*/
+
+/*inregistrare*/
+h1#inreg{
+  text-align: center;
+}
+legend#inreg{
+  font-size: 28px; 
+}
+fieldset.inreg{
+  border: 2px solid #001f35;
+}
+fieldset.inreg label{
+  font-size: 20px; 
+}
+
+fieldset.inreg input,button#inregistrare, fieldset.inreg select,fieldset.inreg textarea {
+  background-color: #8aeeff; 
+  border-radius: 5px;
+  font-size: 18px; 
+  border: none;
+}
+form.inregistrare{
+  position: relative;
+  padding-bottom: 35px;
+}
+form.inregistrare button{
+  position: absolute;
+  bottom: 0; 
+  right: 16px;
+  width: 120px;
+  height: 50px;
+}
+form.inregistrare fieldset#fieldset2{
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+label.left{
+  
+    float: left;
+      width: 10%;
+  
+}
+input.right {
+  float: center;
+    width: 10%;
+}
+
+/*inregistrare*/
+
+/*video*/
+div.videos div,div.videos h2,div.videos h4{
+  text-align: center;
+
+}
+div.videos p{
+text-align: inherit;
+
+}
+div.videos iframe{
+  border-radius: 20px;
+
+}
+/*video*/
+
+/*invat*/
+h1#header{
+  text-align: center;
+}
+aside a {
+  color: #ffffff;
+  text-decoration: none;
+}
+aside a:hover{
+  color:#4ea5b6;
+
+}
+aside {
+    position: fixed;
+    top:70px;
+    left: -1px;
+    width: 105px;
+    padding: 5px;
+    background-color: #092534;
+    border-radius: 5px;
+  }
+
+section.invat {
+    margin-left: 110px;
+    padding: 10px;
+    background-color: rgb(4, 81, 129);
+    border: 2px solid rgb(0, 29, 50);
+    border-radius: 10px;
+ }
+
+section.invat label, section.invat p{
+  font-size: 17px; 
+}
+
+section.invat input,section.invat button, section.invat canvas {
+  background-color: #8aeeff; 
+  border-radius: 5px;
+  font-size: 18px; 
+  border: none;
+}
+section#s2, section#s3 {
+  overflow: hidden; /* to contain floated elements */
+}
+
+div#part1 {
+  float: left;
+    width: 35%;
+}
+
+div#part2 {
+  float: right;
+  width: 65%;
+}
+
+div#part2 table {
+  float: left;
+  width: 35%;
+  margin-left: -250px;
+}
+input#pozitie{
+  width: 50px;
+}
+h1#header{
+  text-align: center;
+}
+ /*invat*/
+
+
+
+/*persoane*/
+h3#persHead{
+  text-align: center;
+}
+div.persoane h3 {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 3s linear infinite;
+    text-align: center;
+}
+div.persoane table, table#tabel{
+  text-align: center;
+  margin: 0 auto;
+}
+
+@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    56% { color: blue; }
+    70% { color: indigo; }
+    84% { color: violet; }
+    100% { color: red; }
+  }
+/*persoane*/
+
+/*cumparaturi*/
+  form.magazin {
+    display: flex;
+    align-items: center; /* center the elements vertically */
+  }
+  form.magazin input,form.magazin button, form.magazin select {
+    background-color: #8aeeff; 
+    border-radius: 5px;
+    font-size: 18px; 
+    border: none;
+  }
+
+  input#numeShop{
+width:150px;
+  }
+  input#cantitateShop{
+width:50px;
+  }
+  h2.magazin{
+    text-align: center;
+  }
+  
+  /*cumparaturi*/
+
+  /*verifica*/
+  section.verifica{
+  background-color: rgb(4, 81, 129);
+  border: 0px solid rgb(0, 29, 50);
+  border-radius: 10px;
+  width: 235px;
+  margin: 0 auto; 
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-family: Arial, sans-serif; 
+  }
+  h3.verificare{
+    text-align: center;
+    font-family: Arial, sans-serif; 
+  }
+
+  section.verifica label{
+    font-size: 20px; 
+  }
+  section.verifica button,  section.verifica input{
+    background-color: #8aeeff; 
+    border-radius: 5px;
+    font-size: 18px; 
+    border: none;
+  }
+  section.verifica button{
+    width: 150px;
+  }
+  section.verifica{
+    position: relative;
+    padding-bottom: 35px;
+  }
+  section.verifica button{
+    position: absolute;
+    bottom: 0; 
+    right: 7px;
+    width: 120px;
+    height: 30px;
+  }
+  /*verifica*/
+
+
+
